@@ -1,0 +1,56 @@
+/* Reset some default styles */
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the <div> container */
+div {
+    background-color: #000000;
+    /* Background color */
+    padding: 20px;
+    /* Add some padding */
+    text-align: center;
+    /* Center text horizontally */
+}
+
+/* Style the <p> element inside the <div> */
+p {
+    font-family: Arial, sans-serif;
+    /* Choose a font */
+    font-size: 16px;
+    /* Set the font size */
+    color: #e7561d;
+    /* Text color */
+}
+
+/* Add some hover effect to the <div> container */
+div:hover {
+    background-color: #e0e0e0;
+    /* Change background color on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+/* Style the button */
+div button {
+    background-color: #e02e17;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    border: none;
+    /* Remove button border */
+    cursor: pointer;
+    /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease;
+    /* Smooth background color transition */
+}
+
+/* Add hover effect to the button */
+div button:hover {
+    background-color: #e28f12;
+    /* Change background color on hover */
+}

@@ -1,0 +1,32 @@
+/* lecture-54-ClipboardEvent.css */
+
+/* Apply a background color and padding to the label */
+label {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Style the input field */
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+
+/* Add some spacing between the label and input */
+label input {
+    margin-left: 10px;
+}
+
+/* Apply some margin to the entire body for spacing */
+body {
+    margin: 20px;
+    background-color: black;
+}
+
+p {
+    color: white;
+}

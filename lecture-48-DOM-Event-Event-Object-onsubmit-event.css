@@ -1,0 +1,57 @@
+/* Set the background color of the entire body to black */
+body {
+    background-color: black;
+    color: white;
+    /* Optionally, set text color to white for better contrast */
+    font-family: Arial, sans-serif;
+    /* Optionally, set a font family for text */
+    margin: 0;
+    /* Remove default body margin for better appearance */
+    padding: 0;
+    /* Remove default body padding for better appearance */
+}
+
+/* Apply some basic styles to the form */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Add some padding to the form for spacing */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background for the form */
+    border-radius: 10px;
+    /* Rounded corners for the form */
+}
+
+/* Style the form labels and inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

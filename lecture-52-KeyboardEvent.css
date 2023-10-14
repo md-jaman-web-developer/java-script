@@ -1,0 +1,31 @@
+/* Style the textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    /* Allow vertical resizing of the textarea */
+}
+
+/* Style the textarea on focus */
+textarea:focus {
+    border-color: #0f0f0f;
+    /* Change border color when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Add a subtle box shadow */
+}
+
+textarea {
+    background-color: rgb(146, 142, 142);
+    color: rgb(10, 10, 10);
+}
+
+body {
+    background-color: #0f0f0f;
+}
+
+textarea:hover {
+    background-color: aliceblue;
+}

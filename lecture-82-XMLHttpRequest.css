@@ -1,0 +1,46 @@
+/* Reset some default browser styles */
+body,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and set text properties for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Style the container */
+.container {
+    background-color: #fffdfd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #f7719d;
+    color: #0a0a0a;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c287f3;
+}
